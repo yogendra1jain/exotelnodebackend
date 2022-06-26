@@ -10,3 +10,6 @@ app.get("/exotel", (req, res) => {
 app.listen(3000, () => {
     console.log("App started at port 300");
 })
+
+
+module.exports = app;
