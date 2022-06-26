@@ -7,8 +7,8 @@ app.get("/", (req, res) => {
     res.send("7340299380");
 })
 
-app.listen(3000, () => {
-    console.log("App started at port 300");
+app.listen(5000, () => {
+    console.log("App started at port 5000");
 })
 
 
