@@ -2,7 +2,7 @@ var express = require("express");
 var app = express();
 
 
-app.get("/exotel", (req, res) => {
+app.get("/", (req, res) => {
     var query = req.query;
     res.send("7340299380");
 })
