@@ -4,6 +4,7 @@ var app = express();
 
 app.get("/", (req, res) => {
     var query = req.query;
+    console.log(req.query);
     res.send("+917340299380");
 })
 
