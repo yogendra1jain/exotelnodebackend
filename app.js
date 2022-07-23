@@ -7,6 +7,18 @@ app.get("/", (req, res) => {
     console.log(req.query);
     res.send("+917340299380,+919024191597");
 })
+app.get("/bad", (req, res) => {
+    var query = req.query;
+    console.log(req.query);
+    res.status(400);
+    res.send("bad boy");
+})
+
+app.get("/pass", (req, res) => {
+    var query = req.query;
+    console.log(req.query, "true");
+    res.send(true);
+})
 
 app.get("/exotel", (req, res) => {
     var query = req.query;
